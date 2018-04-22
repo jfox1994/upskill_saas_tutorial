@@ -17,6 +17,19 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+body, .navbar {
+  //Gradient provided by @moeamaya at cssgradient.io
+  background: rgb(193,141,50);
+  background: -webkit-linear-gradient(left, rgba(193,141,50,1) 0%, rgba(77,189,108,1) 100%);
+  background: -moz-linear-gradient(left, rgba(193,141,50,1) 0%, rgba(77,189,108,1) 100%);
+  background: -o-linear-gradient(left, rgba(193,141,50,1) 0%, rgba(77,189,108,1) 100%);
+  background: linear-gradient(to right, rgba(193,141,50,1) 0%, rgba(77,189,108,1) 100%); 
+}
+
+.navbar{
+  border: none;
+}
+
 h1, h2, h3 {
     font-family: 'Lato', sans-serif;
 }
