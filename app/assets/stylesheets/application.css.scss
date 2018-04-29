@@ -28,8 +28,14 @@
   background: linear-gradient(to right, rgba(193,141,50,1) 0%, rgba(77,189,108,1) 100%); 
 }
 
+// Nav Styles
 .navbar {
   border: none;
+}
+
+.navbar-brand {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
 }
 
 // Background Gradient
