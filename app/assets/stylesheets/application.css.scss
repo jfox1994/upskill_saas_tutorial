@@ -18,7 +18,7 @@
 @import 'bootstrap';
 @import "font-awesome-sprockets";
 @import "font-awesome";
-
+// Background Gradient
 .navbar, .home-callout {
   //Gradient provided by @moeamaya at cssgradient.io
   background: rgb(193,141,50);
@@ -38,13 +38,24 @@
   font-weight: 700;
 }
 
-// Background Gradient
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
   &:hover {
     color:white;
     opacity: 0.75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+  
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: rgba(77,189,108,1);
   }
 }
 
